@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Iso&display=swap');
+body{
+	background-color: rgb(182, 234, 254);
+}
+p{
+	font-size: 50px;
+	color: rgb(34, 34, 34);
+}
+.ex1{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+.ex2{
+	font-family: "Lucida Console", Courier, monospace;
+	font-weight: 700;
+}	
+.ex3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.ex4{
+	font-family: 'Rubik Iso', cursive;
+	font-weight: 700;
+}
+.ex5{
+	font-family: 'Marck Script', cursive;
+	font-weight: 700;
+}

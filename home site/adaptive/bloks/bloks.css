@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+}
+p{
+    border:solid 10px red;
+    font-size: 50px;
+    display: inline;
+}
+span{
+    border: double 10px rgb(146, 154, 246);
+    font-size: 50px;
+}
+li{
+    border: dashed 5px greenyellow;
+    display: inline;
+}
+li:hover{
+    background-color: lightseagreen;
+}
+#first{
+    border: double 10px fuchsia;
+    width: 400px;
+    height: 400px;
+    padding: 100px;
+}
+#second{
+    border:ridge  10px rgb(255, 145, 0);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#third{
+    border: groove 10px rgb(106, 255, 0);
+    width: 600px;
+    height: 600px;
+    
+}
+#fifth,#fourth{
+    width: 800px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 50px;
+}
+#fourth{
+    border-top: double 10px rgb(0, 200, 255);
+    border-bottom: double 10px rgb(0, 200, 255);
+}
+#fifth{
+    border-right: double 10px rgb(0, 200, 255);
+    border-left: double 10px rgb(0, 200, 255);
+}
+#sixth,#seventh,#Eight{
+    border: groove 10px goldenrod;
+    
+    
+}
+#sixth{
+    width: 900px;
+    height: 900px;
+    background-color: darkseagreen;
+   
+}
+#seventh{
+    width: 670px;
+    height: 670px;
+    background-color: darkorange;
+    margin: 50px auto;
+}
+#Eight{
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    margin: 45px auto;
+}
