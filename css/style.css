@@ -1,6 +1,12 @@
+#content{
+    background-color: lightcoral;
+}
+p{
+    margin: 10px;
+    font-size: 1.5vw;
+}
 header{
     height: 300px;
-
 }
 .bgVideo {
     width: 100%;
@@ -11,7 +17,6 @@ header{
     position: relative;
     align-items: center;
 }
-
 .bgVideo video {
     width: 100%;
     height: 100%;
@@ -19,7 +24,6 @@ header{
     object-fit: cover;
     z-index: 1;
 }
-
 h1 {
     font-size: 7vw;
     color: #ffffff;
@@ -38,6 +42,7 @@ li{
     width: 80%;
     border:double 4px orange;
     text-align: center ;
+    font-size: 1vw;
     margin-bottom: 20px;
 }
 a{
@@ -49,12 +54,11 @@ li:hover{
 }
 h2,h3{
     text-align: center;
-    font-family: 3vw;
+    font-size: 3vw;
 }
 main{
     width: 70%;
     background-color: rgb(255, 255, 182);
-    
     float: left;
 }
 aside{
@@ -63,8 +67,7 @@ aside{
     height: auto;
     float: left;
 }
-footer {
-   
+footer {   
     background-color: cadetblue;
     clear: both;
 }
@@ -85,38 +88,45 @@ article{
     color: antiquewhite;
     display: inline-block;
     margin: auto;
-    margin: 4px;
-  
+    margin: 4px;  
 }
+
 
 .Wolf_in_zoo img {
-    width: 320px;
+    width: 25vw;
 }
-
-.Wolf_in_zoo figcaption {
-    font-size: 20px;
-    background-color: #FFF6EA;
+ .Wolf_in_zoo figcaption {
+    font-size: 20px;   
     color: black;
 }
-
 .Wolf_in_zoo {
     border: solid 1px gray;
-    width: 320px;
+    width: 25vw;
     padding: 20px;
     float: right;
     margin-left: 20px;
 }
 
-@media only screen and (max-width:620px) {
 
+@media only screen and (max-width:620px) {
     nav,
     main,
     aside {
         width: 100%;
+        }
+    p{
+        font-size: 4vw;
+    }
+    li{
+        font-size: 3vw; ;
+        } 
+    figcaption{
+        font-size: 4vw;
     }
 }
 
-/**кнопки**/
+/**buttons**/
+
 .button-85 {
     padding: 0.6em 2em;
     border: none;
@@ -127,7 +137,7 @@ article{
     position: relative;
     margin: auto;
     z-index: 0;
-    border-radius: 10px;
+    border-radius: 1vw;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -188,8 +198,9 @@ article{
 }
 .fa {
     padding: 30px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 1vw;
+    width: 2vw;
+    height:1vw;
     text-align: center;
     text-decoration: none;
     margin: 5px 8px;
@@ -207,3 +218,33 @@ article{
     color: white;
 }
 
+/**upstairs**/
+
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size:1vw;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 0.4vw solid;
+    padding: 0.25em 0.5em;
+    box-shadow:1px 1px 0px 0px,2px 2px 0px 0px,3px 3px 0px 0px,4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin:0 2% 2% 2%;
+   
+    }
+.button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}
