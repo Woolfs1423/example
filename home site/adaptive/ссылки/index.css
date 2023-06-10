@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: yellow;
+}
+p{
+    font-size: 55px;
+    
+}
+a{
+    text-decoration: none;
+}
+a.l1{
+    font-size: 35px;
+    font-family: cursive;
+    color: yellow;
+}
+.l1:active{
+    color: yellow;
+}
+.l1:visited{
+    color: aqua;
+}
+.l1:hover{
+    background-color: white;
+}
+.btn1{
+    width: 200px;
+    height: 80px;
+    font-size: 35px;
+    background-color: rgb(91, 255, 73);
+    color: rgb(9,71, 11);
+    border: solid 10px rgb(9, 71, 11);
+    border-radius: 30% 50%;
+    margin:0 0 50px 0;
+}
+
+.btn1:hover{
+    background-color:rgb(91, 255, 73) ;
+    color:rgb(9,71,11);
+    font-weight: 900;
+    width: 240px;
+    border: dashed 10px rgb(9, 71, 11);
+    border-radius: 50% 50%;
+    box-shadow: 10px -10px rgba(255, 166, 0, 0.632);
+    transform: translateY(50px);
+}
+.myButton {
+    box-shadow: 26px 12px 11px 0px #fff6af;
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color: #ffec64;
+    border-radius: 37px;
+    border: 6px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #0c431d;
+    font-family: Times New Roman;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 11px 49px;
+    text-decoration: none;
+    text-shadow: 19px 12px 3px #a6961c;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color: #ffab23;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.button-56 {
+    margin: 20px;
+    align-items: center;
+    background-color: #259f10;
+    border: 2px solid #fbff00;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fbff00;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-56:after {
+    background-color: #fbff00;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+}
+
+.button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
