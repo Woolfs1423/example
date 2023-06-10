@@ -1,8 +1,8 @@
 #content{
-    background-color: lightcoral;
+    background-color:#5C5958;
 }
 p{
-    margin: 10px;
+    margin: 0 2vw;
     font-size: 1.5vw;
 }
 header{
@@ -31,8 +31,9 @@ h1 {
 }
 nav{
     width: 15%;
-    background-color: lightcoral;
+    background-color: #5C5958;
     float: left;
+    color: #ffffff;
 }
 ul{
     list-style: none;
@@ -44,10 +45,12 @@ li{
     text-align: center ;
     font-size: 1vw;
     margin-bottom: 20px;
+    color: #fff;
 }
 a{
     text-decoration: none;
     color: black;
+    color: #fff;
 }
 li:hover{
     background-color: lightgreen;
@@ -58,18 +61,19 @@ h2,h3{
 }
 main{
     width: 70%;
-    background-color: rgb(255, 255, 182);
+    background-color:#DBD7D2;
     float: left;
 }
 aside{
-    background-color: lightcoral;
+    background-color: #5C5958;
     width: 15%;
     height: auto;
     float: left;
 }
 footer {   
-    background-color: cadetblue;
+    background-color: #909497;
     clear: both;
+
 }
 section{
     width: 80%;
@@ -90,8 +94,6 @@ article{
     margin: auto;
     margin: 4px;  
 }
-
-
 .Wolf_in_zoo img {
     width: 25vw;
 }
@@ -106,8 +108,6 @@ article{
     float: right;
     margin-left: 20px;
 }
-
-
 @media only screen and (max-width:620px) {
     nav,
     main,
@@ -197,13 +197,13 @@ article{
     border-radius: 10px;
 }
 .fa {
-    padding: 30px;
+    padding: 20px;
     font-size: 1vw;
     width: 2vw;
-    height:1vw;
+    height:2vw;
     text-align: center;
     text-decoration: none;
-    margin: 5px 8px;
+    margin: 4px 5px;
     border-radius: 50%;
 }
 .fa:hover {
