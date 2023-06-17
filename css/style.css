@@ -4,10 +4,11 @@
 p{
     margin: 0 2vw;
     font-size: 1.5vw;
-    
+    padding-top: 1vw;
 }
 header{
     height: 300px;
+    
 }
 .bgVideo {
     width: 100%;
